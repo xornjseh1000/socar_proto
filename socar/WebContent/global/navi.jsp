@@ -21,7 +21,7 @@
 </style>
 <div id="nav"> 
 		<ul>
-	        <li><a href="<%=ctx %>/index.jsp"><img src="<%=ctx %>/img/navi.png" alt="navi" /></a><li>	
+	        <li><a href="<%=ctx%>/index.jsp"><img src="<%=ctx %>/img/navi.png" alt="navi" /></a><li>	
 			<li><a href="">서비스안내</a></li>
 			<li><a href="">요금안내</a></li>
 			<li><a href="">법인/단체안내</a></li>
