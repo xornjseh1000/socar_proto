@@ -20,7 +20,7 @@
 }
 </style>
 <div id="nav">
-		<ul>
+		<ul> 
 	        <li><img src="<%=ctx %>/img/navi.png" alt="navi" /><li>	
 			<li><a href="">서비스안내</a></li>
 			<li><a href="">요금안내</a></li>
