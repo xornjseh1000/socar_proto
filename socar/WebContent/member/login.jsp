@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% String ctx = application.getContextPath(); %>
 <!doctype html>
@@ -8,6 +9,8 @@
 </head>
 <jsp:include page="/global/navi.jsp"/>
 <body>
+<div class="text">
+	
 	<h3>로그인페이지</h3>
 	<form action="<%= ctx %>/index.jsp" method="post">
 	<span>ID</span> <input type="text" name="id"/><br />
@@ -22,4 +25,3 @@
 	
 </body>
 <jsp:include page="/global/footer.jsp"/>
-</html>

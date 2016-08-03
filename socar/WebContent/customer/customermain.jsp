@@ -77,4 +77,4 @@ li a:hover {
 
 </body>
 <jsp:include page="/global/footer.jsp"/>
-</html>l>>
+</html>

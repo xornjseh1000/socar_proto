@@ -15,26 +15,41 @@
 			<span>이름</span><input type="text" name="name" /><br /> 
 			<span>ID</span><input type="text" name="id" /><br /> 
 			<span>비밀번호</span><input type="text" name="pw" /><br /> 
-			<span>email</span><input type="text" name="email" /><br /> <span>생년월일/성별</span><input
-				type="text" name="ssn"  /> <input type="radio" name="gender"
-				value="남" checked> 남 <input type="radio" name="gender"
-				value="female"> 여<br>
+			<span>전화번호</span><input type="text" name="phone" /><br />
+			 <span>생년월일/성별</span><input type="text" name="ssn" /> 
+			 <input type="radio" name="gender" value="남자" checked> 남 
+			 <input type="radio" name="gender" value="여자"> 여<br>
+				<span>직업</span><input type="text" name="job"/><br />
+				거주지역<select name="region">
+					<option value = "서울">서울</option>
+					<option value = "경기">경기</option>
+					<option value = "대전">대전</option>
+					<option value = "부산">부산</option>
+				</select>
+				<span>주소</span><input type="text" name="address"/><br />
 	
 			<h2>면 허 정 보</h2>
-			<span>면허종류</span><input type="radio" name="licens"
-				value="1종대형"> 1종대형<input type="radio" name="licens"
-				value="1종보통"> 1종보통<input type="radio" name="licens"
-				value="2종오토"> 2종오토<br><span>면허번호</span><select>
-				<option value="seoul">서울</option>
-				<option value="kyungki">경기</option>
-				<option value="daejun">대전</option>
-				<option value="busan">부산</option>
-			</select><input type="text" name="lcs" /><br /> <span>갱신기간 만료일</span><select>
+			<span>면허종류</span>
+			<input type="radio" name="licence_val"
+				value="1종대형"> 1종대형<input type="radio" name="licence_val"
+				value="1종보통"> 1종보통<input type="radio" name="licence_val"
+				value="2종오토"> 2종오토<br><span>면허번호</span>
+			<select name="licence_local">
+				<option value="서울">서울</option>
+				<option value="경기">경기</option>
+				<option value="대전">대전</option>
+				<option value="부산">부산</option>
+			</select>
+			<input type="text" name="licence_num" /><br />
+			 
+			<span>갱신기간 만료일</span>
+			<select name="lic_end_year">
 				<option value="2024">2024</option>
 				<option value="2023">2023</option>
 				<option value="2022">2022</option>
 				<option value="2021">2021</option>
-			</select><select>
+			</select>
+			<select name="lic_end_mon">
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -47,7 +62,8 @@
 				<option value="10">10</option>
 				<option value="11">11</option>
 				<option value="12">12</option>
-			</select><select>
+			</select>
+			<select name="lic_end_day">
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -80,7 +96,9 @@
 				<option value="30">30</option>
 				<option value="31">31</option>
 
-			</select> <span>면허 발급일</span><select>
+			</select> 
+			<span>면허 발급일</span>
+			<select name="lic_start_year">
 				<option value="2016">2016</option>
 				<option value="2015">2015</option>
 				<option value="2014">2014</option>
@@ -94,7 +112,8 @@
 				<option value="2006">2006</option>
 				<option value="2005">2005</option>
 				<option value="2004">2004</option>
-			</select><select>
+			</select>
+			<select name="lic_start_mon">
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -107,7 +126,8 @@
 				<option value="10">10</option>
 				<option value="11">11</option>
 				<option value="12">12</option>
-			</select><select>
+			</select>
+			<select name="lic_start_day">
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
