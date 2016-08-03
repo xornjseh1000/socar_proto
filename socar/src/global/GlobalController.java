@@ -1,4 +1,4 @@
-package member;
+package global;
 
 import java.io.IOException;
 
@@ -7,16 +7,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
-@WebServlet("/member.do")
-public class MemberController extends HttpServlet {
+/**
+ * Servlet implementation class GlobalController
+ */
+@WebServlet("/GlobalController")
+public class GlobalController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("MemberController 진입");
-		HttpSession session = request.getSession();
-		doGet(request, response);
+		System.out.println("=== 글로벌 컨트롤러 진입 ===");
+		DispatcherServlet.send(request, response, Seperator.init(request, response));
 	}
-
 }
