@@ -14,7 +14,7 @@ public class Command implements Orderable {
 	}
 
 	public String getDirectory() {
-		return directory;
+		return directory; 
 	}
 
 	public void setDirectory(String directory) {
