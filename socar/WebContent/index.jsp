@@ -51,7 +51,7 @@ width : 2200px; height : 600px;
 	<a href="aaa.jsp"><button class="button">법인혜택</button></a><br />
 	<a href="aaa.jsp"><button class="button">쿠폰북</button></a><br />
 	<a href="aaa.jsp"><button class="button">소카쿠폰혜택</button></a><br />
-	<a href="aaa.jsp"><button class="button">소카존 신청하기</button></a><br />-->
+	<a href="aaa.jsp"><button class="button">소카존 신청하기</button></a><br />--> 
 	
 </div>
 </div>
@@ -61,7 +61,6 @@ width : 2200px; height : 600px;
 <!--  <a href="hosting.jsp"><button class="button">이전</button></a>
       <a href="hosting3.jsp"><button class="button">다음</button></a>-->
 
-	
 	
 </body>
 <jsp:include page="/global/footer.jsp"/>

@@ -12,14 +12,14 @@
 			<h1 style="color: black;">※ S O C A R 회 원 가 입 ※</h1>
 			<h2>약관동의및간편가입 》 회원정보 입력 》 회원가입완료</h2>
 
-			<span>이름</span><input type="text" name="name" /><br /> <span>ID</span>
-			<input type="text" name="id" /><br /> <span>비밀번호</span><input
-				type="text" name="pw" /><br /> <span>email</span><input
-				type="text" name="email" /><br /> <span>생년월일/성별</span><input
+			<span>이름</span><input type="text" name="name" /><br /> 
+			<span>ID</span><input type="text" name="id" /><br /> 
+			<span>비밀번호</span><input type="text" name="pw" /><br /> 
+			<span>email</span><input type="text" name="email" /><br /> <span>생년월일/성별</span><input
 				type="text" name="ssn"  /> <input type="radio" name="gender"
 				value="남" checked> 남 <input type="radio" name="gender"
 				value="female"> 여<br>
-
+	
 			<h2>면 허 정 보</h2>
 			<span>면허종류</span><input type="radio" name="licens"
 				value="1종대형"> 1종대형<input type="radio" name="licens"
