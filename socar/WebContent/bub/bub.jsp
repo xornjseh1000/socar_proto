@@ -10,7 +10,7 @@
 
 </style>
 <body>
-	<img src="/img/bub.png"/>
+	<img src="bub.png"/>
 </body>
 <jsp:include page="/global/footer.jsp"/>
 </html>

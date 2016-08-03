@@ -7,7 +7,7 @@
 <jsp:include page="/global/navi.jsp"/>
 </head>
 <body>
-	
+		<img src="rule1.png"/>
 </body>
 <jsp:include page="/global/footer.jsp"/>
 </html>

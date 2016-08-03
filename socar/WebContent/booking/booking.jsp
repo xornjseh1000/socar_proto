@@ -7,6 +7,7 @@
 </head>
 <jsp:include page="/global/navi.jsp"/>
 <body>
+<div class="text">
 	<br />
 	<h3> 실시간예약 </h3>
 	

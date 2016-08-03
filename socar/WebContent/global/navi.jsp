@@ -22,9 +22,9 @@
 <div id="nav"> 
 		<ul>
 	        <li><a href="<%=ctx%>/index.jsp"><img src="<%=ctx %>/img/navi.png" alt="navi" /></a><li>	
-			<li><a href="">서비스안내</a></li>
-			<li><a href="">요금안내</a></li>
-			<li><a href="">법인/단체안내</a></li>
+			<li><a href="<%=ctx %>/rule/rule.jsp">서비스안내</a></li>
+			<li><a href="<%=ctx %>/money/money.jsp">요금안내</a></li>
+			<li><a href="<%=ctx %>/bub/bub.jsp">법인/단체안내</a></li>
 			<li><a href="<%=ctx %>/customer/customermain.jsp">고객센터</a></li>
 			<li><a  href="">마이페이지</a></li>
 			<li><a  href="<%=ctx %>/booking/booking.jsp">소카찾기예약</a></li>
