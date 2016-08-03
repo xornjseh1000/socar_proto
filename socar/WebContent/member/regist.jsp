@@ -21,7 +21,7 @@
 			 <input type="radio" name="gender" value="여자"> 여<br>
 				<span>직업</span><input type="text" name="job"/><br />
 				거주지역<select name="region">
-					<option value = "서울">서울</option>
+					<option value = "서울">서울</option> 
 					<option value = "경기">경기</option>
 					<option value = "대전">대전</option>
 					<option value = "부산">부산</option>
