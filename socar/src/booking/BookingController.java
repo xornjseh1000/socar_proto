@@ -22,6 +22,9 @@ public class BookingController {
 				service.reserve(Integer.parseInt(JOptionPane.showInputDialog("대여할 차량 SEQ")), 
 						Integer.parseInt(JOptionPane.showInputDialog("대여 시간")));
 				break;
+			case "4":
+				System.out.println("case4");
+				break;
 				
 			default:
 				break;
