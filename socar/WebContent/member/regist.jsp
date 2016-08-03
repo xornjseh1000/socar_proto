@@ -10,7 +10,7 @@
 
 
 			<h1 style="color: black;">※ S O C A R 회 원 가 입 ※</h1>
-			<h2>약관동의및간편가입 》 회원정보 입력 》 회원가입완료</h2>
+			<h2>약관동의및간편가입 》 회원정보 입력 》 회원가입완료..</h2>
 
 			<span>이름</span><input type="text" name="name" /><br /> 
 			<span>ID</span><input type="text" name="id" /><br /> 
