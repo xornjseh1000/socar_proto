@@ -19,7 +19,7 @@
     color: white;
 }
 </style>
-<div id="nav">
+<div id="nav"> 
 		<ul>
 	        <li><img src="<%=ctx %>/img/navi.png" alt="navi" /><li>	
 			<li><a href="">서비스안내</a></li>
