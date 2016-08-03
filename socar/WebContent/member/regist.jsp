@@ -23,7 +23,7 @@
 				거주지역<select name="region">
 					<option value = "서울">서울</option> 
 					<option value = "경기">경기</option>
-					<option value = "대전">대전</option>
+					<option value = "대전">대전</option> 
 					<option value = "부산">부산</option>
 				</select>
 				<span>주소</span><input type="text" name="address"/><br />
