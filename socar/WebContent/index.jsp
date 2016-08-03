@@ -62,7 +62,6 @@ width : 2200px; height : 600px;
       <a href="hosting3.jsp"><button class="button">다음</button></a>-->
 
 	
-	
 </body>
 <jsp:include page="/global/footer.jsp"/>
 </html>
