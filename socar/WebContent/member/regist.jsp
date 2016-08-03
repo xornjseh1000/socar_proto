@@ -15,7 +15,7 @@
 			<span>이름</span><input type="text" name="name" /><br /> 
 			<span>ID</span><input type="text" name="id" /><br /> 
 			<span>비밀번호</span><input type="text" name="pw" /><br /> 
-			<span>전화번호</span><input type="text" name="phone" /><br />
+			<span>전화번호</span><input type="text" name="phone" /><br /> 
 			 <span>생년월일/성별</span><input type="text" name="ssn" /> 
 			 <input type="radio" name="gender" value="남자" checked> 남 
 			 <input type="radio" name="gender" value="여자"> 여<br>
